@@ -1,0 +1,39 @@
+          Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports      Moves   Last Move
+----    -----------       ----        -----      -----   ---------
+ 400    444c.a877.7b0d    STATIC      Po100
+ 401    444c.a877.7b0d    STATIC      Po100
+ 401    a036.9f96.210c    DYNAMIC     Po6        1       165 days, 2:11:46 ago
+ 401    a036.9f9c.b210    DYNAMIC     Po8        1       165 days, 1:30:24 ago
+ 401    a036.9f9c.b31c    DYNAMIC     Po12       1       164 days, 22:21:01 ago
+ 401    a036.9f9c.b64c    DYNAMIC     Po2        1       165 days, 4:42:11 ago
+ 401    a036.9f9c.b6d8    DYNAMIC     Po9        1       9 days, 21:19:44 ago
+ 401    a036.9f9c.b974    DYNAMIC     Po3        1       12 days, 8:16:41 ago
+ 401    a036.9f9d.0500    DYNAMIC     Po4        1       165 days, 2:42:02 ago
+ 401    a036.9f9d.2b80    DYNAMIC     Po1        1       165 days, 4:38:08 ago
+ 401    a036.9f9d.2cf0    DYNAMIC     Po7        1       165 days, 1:37:26 ago
+ 401    a036.9f9d.2df4    DYNAMIC     Po10       1       165 days, 0:43:11 ago
+ 401    a036.9f9d.2e2c    DYNAMIC     Po14       1       165 days, 5:14:58 ago
+ 401    a036.9f9d.2e5c    DYNAMIC     Po13       1       165 days, 1:25:44 ago
+ 401    a036.9f9d.2ee8    DYNAMIC     Po11       1       165 days, 0:36:13 ago
+ 401    a036.9f9d.3010    DYNAMIC     Po5        1       165 days, 2:42:03 ago
+ 401    a036.9fa5.af8c    DYNAMIC     Po20       1       16 days, 2:19:52 ago
+ 401    a036.9fa5.b89c    DYNAMIC     Po23       1       165 days, 2:41:59 ago
+ 401    a036.9fa5.b8d8    DYNAMIC     Po15       1       165 days, 4:30:44 ago
+ 401    a036.9fa5.b8e0    DYNAMIC     Po22       1       165 days, 2:42:01 ago
+ 401    a036.9fa5.b8f0    DYNAMIC     Po18       1       165 days, 4:28:33 ago
+ 401    a036.9fa5.b978    DYNAMIC     Po21       1       16 days, 4:21:30 ago
+ 401    a036.9fa5.ba38    DYNAMIC     Po17       1       138 days, 4:48:38 ago
+ 401    a036.9fa5.bb00    DYNAMIC     Po16       1       165 days, 1:12:08 ago
+ 401    a036.9fa5.bb0c    DYNAMIC     Po24       1       165 days, 1:53:56 ago
+4094    444c.a877.7b0d    STATIC      Po100
+Total Mac Addresses for this criterion: 26
+
+          Multicast Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       ----        -----
+Total Mac Addresses for this criterion: 0

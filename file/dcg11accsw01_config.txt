@@ -1,0 +1,1319 @@
+
+!Command: show running-config
+!Time: Tue Jul 17 14:57:53 2018
+
+version 7.0(3)I4(5)
+hostname dcg11accsw01
+vdc dcg11accsw01 id 1
+  limit-resource vlan minimum 16 maximum 4094
+  limit-resource vrf minimum 2 maximum 4096
+  limit-resource port-channel minimum 0 maximum 104
+  limit-resource u4route-mem minimum 128 maximum 128
+  limit-resource u6route-mem minimum 96 maximum 96
+  limit-resource m4route-mem minimum 58 maximum 58
+  limit-resource m6route-mem minimum 8 maximum 8
+
+feature privilege
+feature tacacs+
+cfs eth distribute
+feature bgp
+feature pim
+feature msdp
+feature udld
+feature interface-vlan
+feature hsrp
+feature lacp
+feature dhcp
+feature vpc
+feature lldp
+
+mac address-table aging-time 14400
+
+
+banner motd #
+This computer system may be accessed only by authorized individuals.
+
+Data entry or other activities on this system are monitored to help ensure
+compliance with corporate policies.
+
+Unauthorized use of this system is strictly prohibited and may be subject
+to disciplinary action or criminal prosecution.
+#
+
+no ip domain-lookup
+ip domain-name slc.paypal.com
+ip tacacs source-interface loopback1000
+no logging event link-status default
+service unsupported-transceiver
+logging level ethpm link-up error
+logging level ethpm link-down error
+errdisable recovery interval 60
+errdisable recovery cause udld
+ip access-list SNMP_RO
+  10 permit ip 10.18.18.4/32 any
+  20 permit ip 10.31.53.4/32 any
+  30 permit ip 10.18.82.4/32 any
+  40 permit ip 10.31.117.4/32 any
+  50 permit ip 10.197.98.4/32 any
+  60 permit ip 10.190.72.0/24 any
+  70 permit ip 10.73.98.0/23 any
+  80 permit ip 10.74.98.0/23 any
+  90 permit ip 10.197.98.0/23 any
+  100 permit ip 10.30.52.20/32 any
+  110 permit ip 10.30.53.20/32 any
+  120 permit ip 10.16.96.21/32 any
+  130 permit ip 10.16.96.22/32 any
+  140 permit ip 10.17.112.21/32 any
+  150 permit ip 10.17.116.21/32 any
+  160 permit ip 10.14.56.20/32 any
+  170 permit ip 10.14.64.20/32 any
+  180 permit ip 10.31.30.20/32 any
+  190 permit ip 10.31.22.32/32 any
+  200 permit ip 10.27.141.82/32 any
+  210 permit ip 10.27.142.75/32 any
+  220 permit ip 10.30.20.140/32 any
+  230 permit ip 10.30.6.149/32 any
+  240 permit ip 10.16.29.0/32 any
+  250 permit ip 10.16.56.215/32 any
+  260 permit ip 10.17.76.46/32 any
+  270 permit ip 10.17.108.21/32 any
+  280 permit ip 10.14.87.19/32 any
+  290 permit ip 10.14.42.244/32 any
+  300 permit ip 10.196.98.53/32 any
+  310 permit ip 10.196.98.54/32 any
+  320 permit ip 10.73.112.155/32 any
+  330 permit ip 10.73.112.156/32 any
+  340 permit ip 10.74.112.18/32 any
+  350 permit ip 10.74.112.135/32 any
+ip access-list VTY_SSH
+  10 permit ip 10.74.98.0/23 any
+  20 permit ip 10.73.98.0/23 any
+  30 permit ip 10.197.98.0/23 any
+  40 permit ip 10.190.72.0/24 any
+  100 permit ip 10.31.9.98/32 any
+  110 permit ip 10.31.8.236/32 any
+  120 permit ip 10.31.7.124/32 any
+  130 permit ip 10.31.53.4/32 any
+  140 permit ip 10.31.5.54/32 any
+  150 permit ip 10.31.117.4/32 any
+  160 permit ip 10.31.11.53/32 any
+  170 permit ip 10.31.10.159/32 any
+  180 permit ip 10.31.195.135/32 any
+  190 permit ip 10.31.195.137/32 any
+  200 permit ip 10.31.195.117/32 any
+  210 permit ip 10.31.195.113/32 any
+  220 permit ip 10.19.148.144/32 any
+  230 permit ip 10.19.148.143/32 any
+  240 permit ip 10.19.148.142/32 any
+  250 permit ip 10.19.148.141/32 any
+  260 permit ip 10.18.82.4/32 any
+  270 permit ip 10.18.18.4/32 any
+ip access-list copp-system-acl-eigrp
+  10 permit eigrp any 224.0.0.10/32
+ipv6 access-list copp-system-acl-eigrp6
+  10 permit eigrp any ff02::a/128
+ip access-list copp-system-acl-icmp
+  10 permit icmp any any
+ip access-list copp-system-acl-igmp
+  10 permit igmp any any
+ip access-list copp-system-acl-ntp
+  10 permit udp any any eq ntp
+  20 permit udp any eq ntp any
+ip access-list copp-system-acl-pimreg
+  10 permit pim any any
+ip access-list copp-system-acl-ping
+  10 permit icmp any any echo
+  20 permit icmp any any echo-reply
+ip access-list copp-system-acl-routingproto1
+  10 permit tcp any gt 1024 any eq bgp
+  20 permit tcp any eq bgp any gt 1024
+  30 permit udp any 224.0.0.0/24 eq rip
+  40 permit tcp any gt 1024 any eq 639
+  50 permit tcp any eq 639 any gt 1024
+  70 permit ospf any any
+  80 permit ospf any 224.0.0.5/32
+  90 permit ospf any 224.0.0.6/32
+ip access-list copp-system-acl-routingproto2
+  10 permit udp any 224.0.0.0/24 eq 1985
+  20 permit 112 any 224.0.0.0/24
+ip access-list copp-system-acl-snmp
+  10 permit udp any any eq snmp
+  20 permit udp any any eq snmptrap
+ip access-list copp-system-acl-ssh
+  10 permit tcp any any eq 22
+  20 permit tcp any eq 22 any
+ip access-list copp-system-acl-stftp
+  10 permit udp any any eq tftp
+  20 permit udp any any eq 1758
+  30 permit udp any eq tftp any
+  40 permit udp any eq 1758 any
+  50 permit tcp any any eq 115
+  60 permit tcp any eq 115 any
+ip access-list copp-system-acl-tacacsradius
+  10 permit tcp any any eq tacacs
+  20 permit tcp any eq tacacs any
+  30 permit udp any any eq 1812
+  40 permit udp any any eq 1813
+  50 permit udp any any eq 1645
+  60 permit udp any any eq 1646
+  70 permit udp any eq 1812 any
+  80 permit udp any eq 1813 any
+  90 permit udp any eq 1645 any
+  100 permit udp any eq 1646 any
+ip access-list copp-system-acl-telnet
+  10 permit tcp any any eq telnet
+  20 permit tcp any any eq 107
+  30 permit tcp any eq telnet any
+  40 permit tcp any eq 107 any
+ipv6 access-list copp-system-acl-v6routingProto2
+  10 permit udp any ff02::66/128 eq 2029
+  20 permit udp any ff02::fb/128 eq 5353
+ipv6 access-list copp-system-acl-v6routingproto1
+  10 permit 89 any ff02::5/128
+  20 permit 89 any ff02::6/128
+  30 permit udp any ff02::9/128 eq 521
+ip access-list copp-system-dhcp-relay
+  10 permit udp any eq bootps any eq bootps
+policy-map type network-qos jumbo
+  class type network-qos class-default
+    mtu 9216
+system qos
+  service-policy type network-qos jumbo
+class-map type control-plane match-any copp-icmp
+  match access-group name copp-system-acl-icmp
+class-map type control-plane match-any copp-ntp
+  match access-group name copp-system-acl-ntp
+class-map type control-plane match-any copp-s-arp
+class-map type control-plane match-any copp-s-bfd
+class-map type control-plane match-any copp-s-bpdu
+class-map type control-plane match-any copp-s-dai
+class-map type control-plane match-any copp-s-default
+class-map type control-plane match-any copp-s-dhcpreq
+class-map type control-plane match-any copp-s-dhcpresp
+  match access-group name copp-system-dhcp-relay
+class-map type control-plane match-any copp-s-dpss
+class-map type control-plane match-any copp-s-eigrp
+  match access-group name copp-system-acl-eigrp
+  match access-group name copp-system-acl-eigrp6
+class-map type control-plane match-any copp-s-glean
+class-map type control-plane match-any copp-s-igmp
+  match access-group name copp-system-acl-igmp
+class-map type control-plane match-any copp-s-ipmcmiss
+class-map type control-plane match-any copp-s-l2switched
+class-map type control-plane match-any copp-s-l3destmiss
+class-map type control-plane match-any copp-s-l3mtufail
+class-map type control-plane match-any copp-s-l3slowpath
+class-map type control-plane match-any copp-s-pimautorp
+class-map type control-plane match-any copp-s-pimreg
+  match access-group name copp-system-acl-pimreg
+class-map type control-plane match-any copp-s-ping
+  match access-group name copp-system-acl-ping
+class-map type control-plane match-any copp-s-ptp
+class-map type control-plane match-any copp-s-routingProto1
+  match access-group name copp-system-acl-routingproto1
+  match access-group name copp-system-acl-v6routingproto1
+class-map type control-plane match-any copp-s-routingProto2
+  match access-group name copp-system-acl-routingproto2
+class-map type control-plane match-any copp-s-selfIp
+class-map type control-plane match-any copp-s-ttl1
+class-map type control-plane match-any copp-s-v6routingProto2
+  match access-group name copp-system-acl-v6routingProto2
+class-map type control-plane match-any copp-s-vxlan
+class-map type control-plane match-any copp-snmp
+  match access-group name copp-system-acl-snmp
+class-map type control-plane match-any copp-ssh
+  match access-group name copp-system-acl-ssh
+class-map type control-plane match-any copp-stftp
+  match access-group name copp-system-acl-stftp
+class-map type control-plane match-any copp-tacacsradius
+  match access-group name copp-system-acl-tacacsradius
+class-map type control-plane match-any copp-telnet
+  match access-group name copp-system-acl-telnet
+policy-map type control-plane copp-system-policy
+  class copp-s-selfIp
+    police pps 500
+  class copp-s-default
+    police pps 400
+  class copp-s-l2switched
+    police pps 200
+  class copp-s-ping
+    police pps 100
+  class copp-s-l3destmiss
+    police pps 100
+  class copp-s-glean
+    police pps 500
+  class copp-s-l3mtufail
+    police pps 100
+  class copp-s-ttl1
+    police pps 100
+  class copp-s-ipmcmiss
+    police pps 400
+  class copp-s-l3slowpath
+    police pps 100
+  class copp-s-dhcpreq
+    police pps 300
+  class copp-s-dhcpresp
+    police pps 300
+  class copp-s-dai
+    police pps 300
+  class copp-s-igmp
+    police pps 400
+  class copp-s-routingProto2
+    police pps 1300
+  class copp-s-v6routingProto2
+    police pps 1300
+  class copp-s-eigrp
+    police pps 200
+  class copp-s-pimreg
+    police pps 200
+  class copp-s-pimautorp
+    police pps 200
+  class copp-s-routingProto1
+    police pps 1000
+  class copp-s-arp
+    police pps 200
+  class copp-s-ptp
+    police pps 1000
+  class copp-s-vxlan
+    police pps 1000
+  class copp-s-bfd
+    police pps 350
+  class copp-s-bpdu
+    police pps 12000
+  class copp-s-dpss
+    police pps 1000
+  class copp-icmp
+    police pps 200
+  class copp-telnet
+    police pps 500
+  class copp-ssh
+    police pps 500
+  class copp-snmp
+    police pps 500
+  class copp-ntp
+    police pps 100
+  class copp-tacacsradius
+    police pps 400
+  class copp-stftp
+    police pps 400
+control-plane
+  service-policy input copp-system-policy
+ip tftp source-interface loopback800
+rmon event 1 log trap public description FATAL(1) owner PMON@FATAL
+rmon event 2 log trap public description CRITICAL(2) owner PMON@CRITICAL
+rmon event 3 log trap public description ERROR(3) owner PMON@ERROR
+rmon event 4 log trap public description WARNING(4) owner PMON@WARNING
+rmon event 5 log trap public description INFORMATION(5) owner PMON@INFO
+ntp server 10.73.98.19 prefer
+ntp server 10.190.72.20
+ntp source-interface  loopback800
+
+ip pim ssm range 232.0.0.0/8
+ip msdp originator-id loopback800
+vlan 1
+vlan 400
+  name NCP
+vlan 500
+  name Complaince
+vlan 800
+  name Service-Providor-CLD-MGMT
+vlan 1000
+  name Service-Providor
+vlan 3900
+  name NON-ROUTED
+
+spanning-tree port type edge bpduguard default
+spanning-tree vlan 1-1005 priority 8192
+route-map CONNECTED-TO-BGP permit 10
+route-map STATIC-TO-BGP permit 10
+udld aggressive
+service dhcp
+ip dhcp relay
+ipv6 dhcp relay
+vrf context CLD
+  ip pim ssm range 232.0.0.0/8
+vrf context CMP
+  ip pim ssm range 232.0.0.0/8
+vrf context NCP
+  ip pim ssm range 232.0.0.0/8
+vrf context SPN
+  ip pim ssm range 232.0.0.0/8
+vrf context management
+  ip route 0.0.0.0/0 10.0.19.1
+no system urpf disable
+no port-channel load-balance resilient
+hardware profile portmode 48x10G+4x40G
+
+vpc domain 100
+  role priority 8192
+  system-priority 8192
+  peer-keepalive destination 10.0.19.25 source 10.0.19.24
+  peer-gateway
+  auto-recovery
+
+
+interface Vlan1
+
+interface Vlan400
+  description NCP Network 10.16.14.0/24
+  no shutdown
+  mtu 9216
+  vrf member NCP
+  no ip redirects
+  ip address 10.16.14.2/24
+  ip pim sparse-mode
+  hsrp 100
+    preempt
+    priority 110 forwarding-threshold lower 1 upper 110
+    ip 10.16.14.1
+
+interface Vlan500
+  description CMP Network 10.16.142.0/24
+  no shutdown
+  mtu 9216
+  vrf member CMP
+  no ip redirects
+  ip address 10.16.142.2/24
+  ip pim sparse-mode
+  hsrp 100
+    preempt
+    priority 110 forwarding-threshold lower 1 upper 110
+    ip 10.16.142.1
+
+interface Vlan800
+  description CLD Network 10.191.64.0/22
+  no shutdown
+  mtu 9216
+  vrf member CLD
+  no ip redirects
+  ip address 10.191.64.2/22
+  ip pim sparse-mode
+  hsrp 100
+    preempt
+    priority 110 forwarding-threshold lower 1 upper 110
+    ip 10.191.64.1
+  ip dhcp relay address 10.191.64.12
+  ip dhcp relay address 10.191.71.222
+
+interface Vlan1000
+  description SPN Network 10.191.119.0/25
+  no shutdown
+  mtu 9216
+  vrf member SPN
+  no ip redirects
+  ip address 10.191.119.2/25
+  ip pim sparse-mode
+  ip proxy-arp
+  hsrp 100
+    preempt
+    priority 110 forwarding-threshold lower 1 upper 110
+    ip 10.191.119.1
+  ip dhcp relay address 10.191.64.12
+  ip dhcp relay address 10.191.71.222
+
+interface port-channel1
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 1
+
+interface port-channel2
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 2
+
+interface port-channel3
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 3
+
+interface port-channel4
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 4
+
+interface port-channel5
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 5
+
+interface port-channel6
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 6
+
+interface port-channel7
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 7
+
+interface port-channel8
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 8
+
+interface port-channel9
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 9
+
+interface port-channel10
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 10
+
+interface port-channel11
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 11
+
+interface port-channel12
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 12
+
+interface port-channel13
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 13
+
+interface port-channel14
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 14
+
+interface port-channel15
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 15
+
+interface port-channel16
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 16
+
+interface port-channel17
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 17
+
+interface port-channel18
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 18
+
+interface port-channel19
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 19
+
+interface port-channel20
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 20
+
+interface port-channel21
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 21
+
+interface port-channel22
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 22
+
+interface port-channel23
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 23
+
+interface port-channel24
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 24
+
+interface port-channel25
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 25
+
+interface port-channel26
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 26
+
+interface port-channel27
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 27
+
+interface port-channel28
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 28
+
+interface port-channel29
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 29
+
+interface port-channel30
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 30
+
+interface port-channel31
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 31
+
+interface port-channel32
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 32
+
+interface port-channel33
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 33
+
+interface port-channel34
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 34
+
+interface port-channel35
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 35
+
+interface port-channel36
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 36
+
+interface port-channel37
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 37
+
+interface port-channel38
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 38
+
+interface port-channel39
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 39
+
+interface port-channel40
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 40
+
+interface port-channel41
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 41
+
+interface port-channel42
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 42
+
+interface port-channel43
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 43
+
+interface port-channel44
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 44
+
+interface port-channel45
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 45
+
+interface port-channel46
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 46
+
+interface port-channel47
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 47
+
+interface port-channel48
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  vpc 48
+
+interface port-channel100
+  description L2-dcg11accsw02:PO100
+  switchport mode trunk
+  spanning-tree port type network
+  speed 40000
+  no negotiate auto
+  vpc peer-link
+
+interface Ethernet1/1
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 1 mode active
+
+interface Ethernet1/2
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 2 mode active
+
+interface Ethernet1/3
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 3 mode active
+
+interface Ethernet1/4
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 4 mode active
+
+interface Ethernet1/5
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 5 mode active
+
+interface Ethernet1/6
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 6 mode active
+
+interface Ethernet1/7
+  description dcg11cmpintdns1-eth0
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 7 mode active
+
+interface Ethernet1/8
+  description dcg11cmpintdns2-eth0
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 8 mode active
+
+interface Ethernet1/9
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 9 mode active
+
+interface Ethernet1/10
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 10 mode active
+
+interface Ethernet1/11
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 11 mode active
+
+interface Ethernet1/12
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 12 mode active
+
+interface Ethernet1/13
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 13 mode active
+
+interface Ethernet1/14
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 14 mode active
+
+interface Ethernet1/15
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 15 mode active
+
+interface Ethernet1/16
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 16 mode active
+
+interface Ethernet1/17
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 17 mode active
+
+interface Ethernet1/18
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 18 mode active
+
+interface Ethernet1/19
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 19 mode active
+
+interface Ethernet1/20
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 20 mode active
+
+interface Ethernet1/21
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 21 mode active
+
+interface Ethernet1/22
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 22 mode active
+
+interface Ethernet1/23
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 23 mode active
+
+interface Ethernet1/24
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 24 mode active
+
+interface Ethernet1/25
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 25 mode active
+
+interface Ethernet1/26
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 26 mode active
+
+interface Ethernet1/27
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 27 mode active
+
+interface Ethernet1/28
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 28 mode active
+
+interface Ethernet1/29
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 29 mode active
+
+interface Ethernet1/30
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 30 mode active
+
+interface Ethernet1/31
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 31 mode active
+
+interface Ethernet1/32
+  switchport access vlan 500
+  spanning-tree port type edge
+  spanning-tree guard root
+
+interface Ethernet1/33
+  switchport access vlan 500
+  spanning-tree port type edge
+  spanning-tree guard root
+
+interface Ethernet1/34
+  description dcg11ppdb01:PCIe:2/2
+  switchport access vlan 3900
+  spanning-tree port type edge
+  spanning-tree guard root
+
+interface Ethernet1/35
+  description dcg11ppdb02:PCIe:2/1
+  switchport access vlan 3900
+  spanning-tree port type edge
+  spanning-tree guard root
+
+interface Ethernet1/36
+  description slcibm840-3:mgmt
+  switchport access vlan 500
+  spanning-tree port type edge
+  spanning-tree guard root
+
+interface Ethernet1/37
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 37 mode active
+
+interface Ethernet1/38
+  switchport access vlan 500
+  spanning-tree port type edge
+  spanning-tree guard root
+
+interface Ethernet1/39
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 39 mode active
+
+interface Ethernet1/40
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 40 mode active
+
+interface Ethernet1/41
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 41 mode active
+
+interface Ethernet1/42
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 42 mode active
+
+interface Ethernet1/43
+  description dcg11cmpintdns3-eth0
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 43 mode active
+
+interface Ethernet1/44
+  description dcg11cmpintdns4-eth0
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 44 mode active
+
+interface Ethernet1/45
+  description dcg11cmpintdns5-eth0
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 45 mode active
+
+interface Ethernet1/46
+  description dcg11tripws01-eth0
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 46 mode active
+
+interface Ethernet1/47
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 47 mode active
+
+interface Ethernet1/48
+  switchport mode trunk
+  switchport trunk native vlan 800
+  spanning-tree port type edge trunk
+  spanning-tree guard root
+  channel-group 48 mode active
+
+interface Ethernet1/49
+  description L3-dcg11corrt01:Eth1/1
+  no switchport
+  mtu 9216
+
+interface Ethernet1/49.400
+  description L3-dcg11corrt01:Eth1/1.400
+  mtu 9216
+  encapsulation dot1q 400
+  vrf member NCP
+  ip address 10.15.122.1/31
+  ip pim sparse-mode
+
+interface Ethernet1/49.500
+  description L3-dcg11corrt01:Eth1/1.500
+  mtu 9216
+  encapsulation dot1q 500
+  vrf member CMP
+  ip address 10.15.124.1/31
+  ip pim sparse-mode
+
+interface Ethernet1/49.800
+  description L3-dcg11corrt01:Eth1/1.800
+  mtu 9216
+  encapsulation dot1q 800
+  vrf member CLD
+  ip address 10.15.127.1/31
+  ip pim sparse-mode
+
+interface Ethernet1/49.1000
+  description L3-dcg11corrt01:Eth1/1.1000
+  mtu 9216
+  encapsulation dot1q 1000
+  vrf member SPN
+  ip address 10.15.120.1/31
+  ip pim sparse-mode
+
+interface Ethernet1/50
+  description L3-dcg11corrt02:Eth1/1
+  no switchport
+  mtu 9216
+
+interface Ethernet1/50.400
+  description L3-dcg11corrt02:Eth1/1.400
+  mtu 9216
+  encapsulation dot1q 400
+  vrf member NCP
+  ip address 10.15.122.3/31
+  ip pim sparse-mode
+
+interface Ethernet1/50.500
+  description L3-dcg11corrt02:Eth1/1.500
+  mtu 9216
+  encapsulation dot1q 500
+  vrf member CMP
+  ip address 10.15.124.3/31
+  ip pim sparse-mode
+
+interface Ethernet1/50.800
+  description L3-dcg11corrt02:Eth1/1.800
+  mtu 9216
+  encapsulation dot1q 800
+  vrf member CLD
+  ip address 10.15.127.3/31
+  ip pim sparse-mode
+
+interface Ethernet1/50.1000
+  description L3-dcg11corrt02:Eth1/1.1000
+  mtu 9216
+  encapsulation dot1q 1000
+  vrf member SPN
+  ip address 10.15.120.3/31
+  ip pim sparse-mode
+
+interface Ethernet1/51
+  description L2-dcg11accsw02:eth1/51
+  switchport mode trunk
+  no negotiate auto
+  channel-group 100 mode active
+
+interface Ethernet1/52
+  description L2-dcg11accsw02:eth1/52
+  switchport mode trunk
+  no negotiate auto
+  channel-group 100 mode active
+
+interface mgmt0
+  description VPC Peer Link
+  vrf member management
+  ip address 10.0.19.24/26
+
+interface loopback400
+  description dcg11accsw01:NCP
+  vrf member NCP
+  ip address 10.191.115.226/32
+  ip pim sparse-mode
+
+interface loopback500
+  description dcg11accsw01:CMP
+  vrf member CMP
+  ip address 10.191.116.205/32
+  ip pim sparse-mode
+
+interface loopback800
+  description dcg11accsw01:CLD
+  vrf member CLD
+  ip address 10.191.117.20/32
+
+interface loopback1000
+  description dcg11accsw01:SPN
+  vrf member SPN
+  ip address 10.191.113.16/32
+  ip pim sparse-mode
+clock timezone PST -8 0
+clock summer-time PDT 2 Sun Mar 02:00 1 Sun Nov 02:00 60
+cli alias name wr copy ru s
+cli alias name bgpsum show ip bgp summary vrf all
+cli alias name bgp show ip bgp vrf all
+cli alias name iproute show ip route vrf all
+cli alias name ipintbrief show ip int brief vrf all
+line console
+  exec-timeout 15
+line vty
+  exec-timeout 15
+  access-class VTY_SSH in
+boot nxos bootflash:/nxos.7.0.3.I4.5.comp3048.bin
+no ip source-route
+router bgp 65100
+  address-family ipv4 unicast
+  vrf BDR
+    log-neighbor-changes
+  vrf CLD
+    router-id 10.191.117.20
+    timers bgp 5 15
+    bestpath as-path multipath-relax
+    log-neighbor-changes
+    address-family ipv4 unicast
+      redistribute direct route-map CONNECTED-TO-BGP
+      redistribute static route-map STATIC-TO-BGP
+      maximum-paths 4
+    neighbor 10.15.127.0 remote-as 65000
+      description dcg11corrt01
+      address-family ipv4 unicast
+        soft-reconfiguration inbound
+    neighbor 10.15.127.2 remote-as 65001
+      description dcg11corrt02
+      address-family ipv4 unicast
+        soft-reconfiguration inbound
+    neighbor 10.191.64.3 remote-as 65100
+      description dcg11accsw02
+      address-family ipv4 unicast
+        next-hop-self
+        soft-reconfiguration inbound
+  vrf CMP
+    router-id 10.191.116.205
+    timers bgp 5 15
+    bestpath as-path multipath-relax
+    log-neighbor-changes
+    address-family ipv4 unicast
+      network 10.16.142.0/24
+      network 10.191.116.205/32
+      maximum-paths 4
+    neighbor 10.15.124.0 remote-as 65000
+      description dcg11corrt01
+      address-family ipv4 unicast
+        soft-reconfiguration inbound
+    neighbor 10.15.124.2 remote-as 65001
+      description dcg11corrt02
+      address-family ipv4 unicast
+        soft-reconfiguration inbound
+    neighbor 10.16.142.3 remote-as 65100
+      description dcg11accsw02
+      address-family ipv4 unicast
+        next-hop-self
+        soft-reconfiguration inbound
+  vrf CORP
+    log-neighbor-changes
+  vrf ESI
+    log-neighbor-changes
+  vrf NCP
+    router-id 10.191.115.226
+    log-neighbor-changes
+    address-family ipv4 unicast
+      network 10.16.14.0/24
+      network 10.191.115.226/32
+    neighbor 10.15.122.0 remote-as 65000
+      description dcg11corrt01
+      address-family ipv4 unicast
+        soft-reconfiguration inbound
+    neighbor 10.15.122.2 remote-as 65001
+      description dcg11corrt02
+      address-family ipv4 unicast
+        soft-reconfiguration inbound
+    neighbor 10.16.14.3 remote-as 65100
+      description dcg11accsw02
+      address-family ipv4 unicast
+        soft-reconfiguration inbound
+  vrf PADMZ
+    log-neighbor-changes
+  vrf PAZ
+    log-neighbor-changes
+  vrf SPN
+    router-id 10.191.113.16
+    log-neighbor-changes
+    address-family ipv4 unicast
+      network 10.191.113.16/32
+      network 10.191.119.0/25
+    neighbor 10.15.120.0 remote-as 65000
+      description dcg11corrt01
+      address-family ipv4 unicast
+        soft-reconfiguration inbound
+    neighbor 10.15.120.2 remote-as 65001
+      description dcg11corrt02
+      address-family ipv4 unicast
+        soft-reconfiguration inbound
+    neighbor 10.191.119.3 remote-as 65100
+      description dcg11accsw02
+      address-family ipv4 unicast
+        next-hop-self
+        soft-reconfiguration inbound
+logging server 10.16.128.250 5 use-vrf SPN facility local6
+logging server 10.190.72.49 5 use-vrf NCP facility local6
+logging source-interface loopback800
+no logging monitor
+logging level local6 6
+no logging console
+
+
+

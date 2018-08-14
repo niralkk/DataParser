@@ -1,0 +1,376 @@
+ARP Table for VRF CLD
+
+Flags: * - Adjacencies learnt on non-active FHRP router
+       + - Adjacencies synced via CFSoE
+       # - Adjacencies Throttled for Glean
+       CP - Added via L2RIB, Control plane Adjacencies       D - Static Adjacencies attached to down interface
+
+IP ARP Table for context CLD
+Total number of entries: 220
+Address         Age       MAC Address     Interface
+10.191.64.3     00:00:48  885a.9235.bb41  Vlan800
+10.191.64.12    00:01:20  5254.004a.c53f  Vlan800
+10.191.64.13    00:00:02  d89d.67ee.56b0  Vlan800
+10.191.64.14    00:00:16  d89d.67ee.6794  Vlan800
+10.191.64.15    00:01:31  d89d.67ee.59d0  Vlan800
+10.191.64.16    00:01:30  d89d.67ee.5c54  Vlan800
+10.191.64.18    00:00:26  d89d.67ee.5b8c  Vlan800
+10.191.64.20    00:00:50  d89d.67ee.5a8c  Vlan800
+10.191.64.21    00:00:17  38ea.a7a8.9871  Vlan800
+10.191.64.22    00:06:31  d89d.67ee.5afc  Vlan800
+10.191.64.23    00:00:15  INCOMPLETE      Vlan800
+10.191.64.26    00:17:43  5254.009e.b5a3  Vlan800
+10.191.64.28    00:04:48  0cc4.7a0b.87c0  Vlan800
+10.191.64.30    00:00:54  5254.0037.0d0d  Vlan800
+10.191.64.31    00:18:09  5254.0088.fb13  Vlan800
+10.191.64.33    00:15:11  5254.0041.954b  Vlan800
+10.191.64.34    00:13:40  5254.00c0.4ed8  Vlan800
+10.191.64.38    00:18:36  5254.00ac.d856  Vlan800
+10.191.64.41    00:18:11  5254.0046.c2c6  Vlan800
+10.191.64.42    00:00:11  5254.00f8.c818  Vlan800
+10.191.64.51    00:00:26  9cb6.5406.c4bd  Vlan800
+10.191.64.52    00:00:15  9cb6.5406.c47d  Vlan800
+10.191.64.53    00:00:41  9cb6.54b0.996d  Vlan800
+10.191.64.56    00:18:14  5254.00af.2e95  Vlan800
+10.191.64.62    00:00:08  INCOMPLETE      Vlan800
+10.191.64.63    00:00:01  5254.0033.28e8  Vlan800
+10.191.64.64    00:00:23  5454.0040.d5b4  Vlan800
+10.191.64.66    00:00:59  5454.0040.d5b4  Vlan800
+10.191.64.67    00:00:59  5454.0040.d5b4  Vlan800
+10.191.64.68    00:01:00  5454.0040.d5b4  Vlan800
+10.191.64.69    00:00:59  5454.0040.d5b4  Vlan800
+10.191.64.70    00:01:06  5454.0040.d5b4  Vlan800
+10.191.64.71    00:00:59  5454.0040.d5b4  Vlan800
+10.191.64.72    00:00:23  5454.0040.d5b4  Vlan800
+10.191.64.73    00:14:22  5454.0040.d5b4  Vlan800
+10.191.64.74    00:00:59  5454.0040.d5b4  Vlan800
+10.191.64.75    00:01:41  5454.0040.d5b4  Vlan800
+10.191.64.76    00:01:00  5454.0040.d5b4  Vlan800
+10.191.64.77    00:00:59  5454.0040.d5b4  Vlan800
+10.191.64.78    00:01:42  5454.0040.d5b4  Vlan800
+10.191.64.79    00:00:59  5454.0040.d5b4  Vlan800
+10.191.64.80    00:00:59  5454.0040.d5b4  Vlan800
+10.191.64.81    00:01:00  5454.0040.d5b4  Vlan800
+10.191.64.82    00:00:59  5454.0040.d5b4  Vlan800
+10.191.64.83    00:01:53  5454.0040.d5b4  Vlan800
+10.191.64.90    00:00:11  5254.0085.78f8  Vlan800
+10.191.64.91    00:00:58  5254.006d.4a71  Vlan800
+10.191.64.99    00:00:05  INCOMPLETE      Vlan800
+10.191.64.104   00:00:24  INCOMPLETE      Vlan800
+10.191.64.105   00:07:26  5254.0038.b5e1  Vlan800
+10.191.64.108   00:00:23  INCOMPLETE      Vlan800
+10.191.64.114   00:00:17  5254.00b6.b6cc  Vlan800
+10.191.64.116   00:17:34  5254.003e.512b  Vlan800
+10.191.64.120   00:00:03  INCOMPLETE      Vlan800
+10.191.64.121   00:12:50  5254.0043.b68d  Vlan800
+10.191.64.123   00:11:28  5254.0094.2a70  Vlan800
+10.191.64.125   00:04:58  5254.0070.8392  Vlan800
+10.191.64.129   00:08:29  5254.0029.ab6a  Vlan800
+10.191.64.130   00:18:15  5254.006e.b490  Vlan800
+10.191.64.131   00:05:22  5254.004e.68b2  Vlan800
+10.191.64.132   00:02:10  5254.005d.214b  Vlan800
+10.191.64.133   00:03:32  5254.00a5.5536  Vlan800
+10.191.64.144   00:12:04  5254.0038.b7be  Vlan800
+10.191.64.147   00:00:01  5254.00f4.cdd6  Vlan800
+10.191.64.148   00:00:19  5254.000a.bb31  Vlan800
+10.191.64.149   00:01:03  5254.0008.f826  Vlan800
+10.191.64.150   00:00:23  5254.00d1.fb6c  Vlan800
+10.191.64.152   00:00:17  5254.00a1.6c2e  Vlan800
+10.191.64.156   00:00:12  INCOMPLETE      Vlan800
+10.191.64.160   00:00:19  8cdc.d4ab.c4e0  Vlan800
+10.191.64.161   00:13:07  5254.00b9.ed6d  Vlan800
+10.191.64.162   00:03:31  8cdc.d4ab.c19c  Vlan800
+10.191.64.164   00:00:26  8cdc.d4ab.c4fc  Vlan800
+10.191.64.165   00:09:47  8cdc.d4ab.c1b4  Vlan800
+10.191.64.166   00:15:36  8cdc.d4ab.c47c  Vlan800
+10.191.64.167   00:02:02  8cdc.d4ab.c484  Vlan800
+10.191.64.168   00:18:36  8cdc.d4ab.bf74  Vlan800
+10.191.64.169   00:16:31  8cdc.d4ab.c568  Vlan800
+10.191.64.170   00:05:11  8cdc.d4ab.c59c  Vlan800
+10.191.64.171   00:07:41  8cdc.d4ab.cbcc  Vlan800
+10.191.64.172   00:00:20  8cdc.d4ab.c6c4  Vlan800
+10.191.64.173   00:01:15  8cdc.d4ab.cb38  Vlan800
+10.191.64.174   00:00:35  8cdc.d4ab.c3e8  Vlan800
+10.191.64.175   00:15:37  8cdc.d4ab.cb94  Vlan800
+10.191.64.176   00:00:16  INCOMPLETE      Vlan800
+10.191.64.180   00:18:03  5254.00c4.08cd  Vlan800
+10.191.64.183   00:09:43  5254.004e.3464  Vlan800
+10.191.64.184   00:13:25  5254.00df.c293  Vlan800
+10.191.64.192   00:00:31  5254.00bc.01f1  Vlan800
+10.191.64.216   00:13:39  5254.00d2.4255  Vlan800
+10.191.64.234   00:16:55  5254.00f6.fee7  Vlan800
+10.191.65.2     00:03:49  74db.d180.2cc8  Vlan800
+10.191.65.3     00:00:56  74db.d180.45cc  Vlan800
+10.191.65.5     00:10:21  74db.d180.15ce  Vlan800
+10.191.65.6     00:03:48  74db.d180.ea35  Vlan800
+10.191.65.11    00:02:38  74db.d180.6446  Vlan800
+10.191.65.12    00:00:18  74db.d180.a0fb  Vlan800
+10.191.65.13    00:01:29  74db.d180.138a  Vlan800
+10.191.65.14    00:00:26  74db.d180.0711  Vlan800
+10.191.65.15    00:00:38  74db.d180.2acd  Vlan800
+10.191.65.16    00:03:48  74db.d180.9a76  Vlan800
+10.191.65.17    00:00:36  74db.d180.6533  Vlan800
+10.191.65.18    00:00:38  74db.d180.7688  Vlan800
+10.191.65.19    00:00:06  74db.d180.d3ea  Vlan800
+10.191.65.21    00:00:19  74db.d180.5535  Vlan800
+10.191.65.22    00:00:34  74db.d180.5f09  Vlan800
+10.191.65.23    00:00:33  74db.d180.628c  Vlan800
+10.191.65.24    00:04:32  74db.d180.6600  Vlan800
+10.191.65.25    00:04:46  74db.d180.6f43  Vlan800
+10.191.65.27    00:01:27  74db.d180.21f9  Vlan800
+10.191.65.28    00:00:03  74db.d180.a983  Vlan800
+10.191.65.29    00:00:55  74db.d180.99ef  Vlan800
+10.191.65.30    00:00:43  74db.d180.2d20  Vlan800
+10.191.65.31    00:00:41  74db.d180.7b64  Vlan800
+10.191.65.32    00:00:14  74db.d180.cae0  Vlan800
+10.191.65.33    00:05:44  74db.d180.f5eb  Vlan800
+10.191.65.35    00:02:57  74db.d180.4ea7  Vlan800
+10.191.65.36    00:00:22  74db.d180.8769  Vlan800
+10.191.65.37    00:17:16  74db.d180.a31d  Vlan800
+10.191.65.38    00:14:32  74db.d180.9486  Vlan800
+10.191.65.39    00:01:31  74db.d180.6ed9  Vlan800
+10.191.65.40    00:02:44  74db.d180.a70a  Vlan800
+10.191.65.41    00:04:31  74db.d180.b651  Vlan800
+10.191.65.42    00:06:47  74db.d180.4b6b  Vlan800
+10.191.65.43    00:02:26  74db.d180.c9d6  Vlan800
+10.191.65.44    00:09:58  74db.d180.f636  Vlan800
+10.191.65.45    00:09:59  74db.d180.4692  Vlan800
+10.191.65.47    00:10:14  74db.d180.2286  Vlan800
+10.191.65.48    00:00:19  74db.d180.4760  Vlan800
+10.191.65.49    00:00:27  74db.d180.13e3  Vlan800
+10.191.65.50    00:07:00  74db.d180.a5c8  Vlan800
+10.191.65.52    00:14:42  74db.d180.6d4b  Vlan800
+10.191.65.53    00:03:03  74db.d180.ba3a  Vlan800
+10.191.65.54    00:17:26  74db.d180.e2e5  Vlan800
+10.191.65.55    00:13:15  74db.d180.40ea  Vlan800
+10.191.65.56    00:12:26  74db.d180.97f6  Vlan800
+10.191.65.57    00:03:48  74db.d180.ec0e  Vlan800
+10.191.65.58    00:05:11  74db.d180.98cb  Vlan800
+10.191.65.60    00:00:02  74db.d180.6433  Vlan800
+10.191.65.61    00:03:47  74db.d180.486b  Vlan800
+10.191.65.62    00:00:24  5254.0046.a190  Vlan800
+10.191.65.63    00:00:47  5254.00a9.990b  Vlan800
+10.191.65.70    00:00:23  5454.0040.d5b4  Vlan800
+10.191.65.72    00:00:59  5454.0040.d5b4  Vlan800
+10.191.65.74    00:01:00  5454.0040.d5b4  Vlan800
+10.191.65.75    00:00:24  5454.0040.d5b4  Vlan800
+10.191.65.76    00:01:42  5454.0040.d5b4  Vlan800
+10.191.65.77    00:00:59  5454.0040.d5b4  Vlan800
+10.191.65.78    00:00:59  5454.0040.d5b4  Vlan800
+10.191.65.79    00:01:00  5454.0040.d5b4  Vlan800
+10.191.67.10    00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.12    00:01:00  5454.0040.d5b4  Vlan800
+10.191.67.13    00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.14    00:03:10  5454.0040.d5b4  Vlan800
+10.191.67.15    00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.16    00:00:23  5454.0040.d5b4  Vlan800
+10.191.67.20    00:01:00  5454.0040.d5b4  Vlan800
+10.191.67.25    00:01:42  5454.0040.d5b4  Vlan800
+10.191.67.30    00:01:43  5454.0040.d5b4  Vlan800
+10.191.67.41    00:01:00  5454.0040.d5b4  Vlan800
+10.191.67.44    00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.51    00:01:42  5454.0040.d5b4  Vlan800
+10.191.67.52    00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.53    00:00:23  5454.0040.d5b4  Vlan800
+10.191.67.54    00:01:00  5454.0040.d5b4  Vlan800
+10.191.67.55    00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.56    00:01:43  5454.0040.d5b4  Vlan800
+10.191.67.57    00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.58    00:00:23  5454.0040.d5b4  Vlan800
+10.191.67.59    00:01:42  5454.0040.d5b4  Vlan800
+10.191.67.61    00:01:41  5454.0040.d5b4  Vlan800
+10.191.67.62    00:01:00  5454.0040.d5b4  Vlan800
+10.191.67.63    00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.64    00:01:42  5454.0040.d5b4  Vlan800
+10.191.67.65    00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.67    00:01:00  5454.0040.d5b4  Vlan800
+10.191.67.68    00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.69    00:01:42  5454.0040.d5b4  Vlan800
+10.191.67.70    00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.71    00:00:23  5454.0040.d5b4  Vlan800
+10.191.67.72    00:01:42  5454.0040.d5b4  Vlan800
+10.191.67.73    00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.74    00:00:23  5454.0040.d5b4  Vlan800
+10.191.67.75    00:01:00  5454.0040.d5b4  Vlan800
+10.191.67.76    00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.77    00:01:42  5454.0040.d5b4  Vlan800
+10.191.67.78    00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.79    00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.80    00:01:01  5454.0040.d5b4  Vlan800
+10.191.67.81    00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.82    00:01:41  5454.0040.d5b4  Vlan800
+10.191.67.83    00:01:00  5454.0040.d5b4  Vlan800
+10.191.67.84    00:00:23  5454.0040.d5b4  Vlan800
+10.191.67.150   00:07:45  5454.0040.d5b4  Vlan800
+10.191.67.151   00:01:00  5454.0040.d5b4  Vlan800
+10.191.67.152   00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.153   00:01:42  5454.0040.d5b4  Vlan800
+10.191.67.160   00:00:23  5454.0040.d5b4  Vlan800
+10.191.67.161   00:14:24  5454.0040.d5b4  Vlan800
+10.191.67.195   00:15:09  5454.0040.d5b4  Vlan800
+10.191.67.196   00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.197   00:00:23  5454.0040.d5b4  Vlan800
+10.191.67.198   00:01:00  5454.0040.d5b4  Vlan800
+10.191.67.199   00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.200   00:15:50  5454.0040.d5b4  Vlan800
+10.191.67.201   00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.202   00:00:23  5454.0040.d5b4  Vlan800
+10.191.67.203   00:01:44  5454.0040.d5b4  Vlan800
+10.191.67.204   00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.205   00:16:31  5454.0040.d5b4  Vlan800
+10.191.67.206   00:01:00  5454.0040.d5b4  Vlan800
+10.191.67.207   00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.208   00:15:48  5454.0040.d5b4  Vlan800
+10.191.67.209   00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.210   00:00:59  5454.0040.d5b4  Vlan800
+10.191.67.212   00:09:19  5254.0081.541f  Vlan800
+10.191.67.214   00:00:35  5254.0048.49dd  Vlan800
+10.15.127.0     00:07:54  8c60.4fa7.2dfc  Ethernet1/49.800
+10.15.127.2     00:15:02  8c60.4fa7.303c  Ethernet1/50.800
+10.191.64.1        -      0000.0c07.ac64  Vlan800
+
+
+
+NDP Table for VRF CLD
+
+Flags: # - Adjacencies Throttled for Glean
+       G - Adjacencies of vPC peer with G/W bit
+       R - Adjacencies learnt remotely
+
+IPv6 Adjacency Table for VRF CLD
+Total number of entries: 0
+Address         Age       MAC Address     Pref Source     Interface
+
+
+
+ARP Table for VRF CMP
+
+Flags: * - Adjacencies learnt on non-active FHRP router
+       + - Adjacencies synced via CFSoE
+       # - Adjacencies Throttled for Glean
+       CP - Added via L2RIB, Control plane Adjacencies       D - Static Adjacencies attached to down interface
+
+IP ARP Table for context CMP
+Total number of entries: 18
+Address         Age       MAC Address     Interface
+10.16.142.3     00:03:37  885a.9235.bb41  Vlan500
+10.16.142.10    00:08:30  8cdc.d4b3.c964  Vlan500
+10.16.142.11    00:16:32  8cdc.d4b4.0b64  Vlan500
+10.16.142.12    00:02:10  8cdc.d4b3.c964  Vlan500
+10.16.142.13    00:11:57  8cdc.d4b4.0b64  Vlan500
+10.16.142.14    00:02:09  8cdc.d4b3.c964  Vlan500
+10.16.142.15    00:16:16  8cdc.d4b4.0b64  Vlan500
+10.16.142.16    00:06:05  8cdc.d4b4.0b64  Vlan500
+10.16.142.21    00:16:40  ac16.2da5.d5c0  Vlan500
+10.16.142.23    00:14:57  e411.5be8.8018  Vlan500
+10.16.142.24    00:00:02  INCOMPLETE      Vlan500
+10.16.142.25    00:06:29  441e.a14e.52d0  Vlan500
+10.16.142.100   00:12:08  40f2.e9e8.2958  Vlan500
+10.16.142.101   00:10:47  40f2.e9e8.291e  Vlan500
+10.16.142.102   00:16:26  40f2.e9e8.291e  Vlan500
+10.15.124.0     00:07:15  8c60.4fa7.2dfc  Ethernet1/49.500
+10.15.124.2     00:15:22  8c60.4fa7.303c  Ethernet1/50.500
+10.16.142.1        -      0000.0c07.ac64  Vlan500
+
+
+
+NDP Table for VRF CMP
+
+Flags: # - Adjacencies Throttled for Glean
+       G - Adjacencies of vPC peer with G/W bit
+       R - Adjacencies learnt remotely
+
+IPv6 Adjacency Table for VRF CMP
+Total number of entries: 0
+Address         Age       MAC Address     Pref Source     Interface
+
+
+
+ARP Table for VRF NCP
+
+Flags: * - Adjacencies learnt on non-active FHRP router
+       + - Adjacencies synced via CFSoE
+       # - Adjacencies Throttled for Glean
+       CP - Added via L2RIB, Control plane Adjacencies       D - Static Adjacencies attached to down interface
+
+IP ARP Table for context NCP
+Total number of entries: 7
+Address         Age       MAC Address     Interface
+10.16.14.3      00:03:35  885a.9235.bb41  Vlan400
+10.16.14.21     00:15:35  101f.7436.56b0  Vlan400
+10.16.14.23     00:05:43  441e.a14e.3a08  Vlan400
+10.16.14.25     00:10:24  e839.35c2.8924  Vlan400
+10.15.122.0     00:07:55  8c60.4fa7.2dfc  Ethernet1/49.400
+10.15.122.2     00:15:25  8c60.4fa7.303c  Ethernet1/50.400
+10.16.14.1         -      0000.0c07.ac64  Vlan400
+
+
+
+NDP Table for VRF NCP
+
+Flags: # - Adjacencies Throttled for Glean
+       G - Adjacencies of vPC peer with G/W bit
+       R - Adjacencies learnt remotely
+
+IPv6 Adjacency Table for VRF NCP
+Total number of entries: 0
+Address         Age       MAC Address     Pref Source     Interface
+
+
+
+ARP Table for VRF SPN
+
+Flags: * - Adjacencies learnt on non-active FHRP router
+       + - Adjacencies synced via CFSoE
+       # - Adjacencies Throttled for Glean
+       CP - Added via L2RIB, Control plane Adjacencies       D - Static Adjacencies attached to down interface
+
+IP ARP Table for context SPN
+Total number of entries: 4
+Address         Age       MAC Address     Interface
+10.191.119.3    00:08:37  885a.9235.bb41  Vlan1000
+10.15.120.0     00:07:15  8c60.4fa7.2dfc  Ethernet1/49.1000
+10.15.120.2     00:15:25  8c60.4fa7.303c  Ethernet1/50.1000
+10.191.119.1       -      0000.0c07.ac64  Vlan1000
+
+
+
+NDP Table for VRF SPN
+
+Flags: # - Adjacencies Throttled for Glean
+       G - Adjacencies of vPC peer with G/W bit
+       R - Adjacencies learnt remotely
+
+IPv6 Adjacency Table for VRF SPN
+Total number of entries: 0
+Address         Age       MAC Address     Pref Source     Interface
+
+
+
+ARP Table for VRF management
+
+Flags: * - Adjacencies learnt on non-active FHRP router
+       + - Adjacencies synced via CFSoE
+       # - Adjacencies Throttled for Glean
+       CP - Added via L2RIB, Control plane Adjacencies       D - Static Adjacencies attached to down interface
+
+IP ARP Table for context management
+Total number of entries: 2
+Address         Age       MAC Address     Interface
+10.0.19.1       00:15:51  a44c.112c.3801  mgmt0
+10.0.19.25      00:01:03  885a.9235.bb00  mgmt0
+
+
+
+NDP Table for VRF management
+
+Flags: # - Adjacencies Throttled for Glean
+       G - Adjacencies of vPC peer with G/W bit
+       R - Adjacencies learnt remotely
+
+IPv6 Adjacency Table for VRF management
+Total number of entries: 0
+Address         Age       MAC Address     Pref Source     Interface
+
+
+

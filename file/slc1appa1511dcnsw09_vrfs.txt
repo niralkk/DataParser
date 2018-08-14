@@ -1,0 +1,38 @@
+IPv4 -- VRF mgmtVrf
+IPv4 CEF is enabled for distributed and running
+VRF mgmtVrf:
+ 8 prefixes (8/0 fwd/non-fwd)
+ Table id 65
+ Database epoch:        1 (8 entries at this epoch)
+
+0.0.0.0/0, epoch 1, flags default route handler
+  no route
+0.0.0.0/8, epoch 1
+  Special source: drop
+  drop
+0.0.0.0/32, epoch 1, flags receive
+  Special source: receive
+  receive
+127.0.0.0/8, epoch 1
+  Special source: drop
+  drop
+224.0.0.0/4, epoch 1
+  Special source: drop
+  drop
+224.0.0.0/24, epoch 1, flags receive
+  Special source: receive
+  receive
+240.0.0.0/4, epoch 1
+  Special source: drop
+  drop
+255.255.255.255/32, epoch 1, flags receive
+  Special source: receive
+  receive
+
+
+IPv6 -- VRF mgmtVrf
+                                      ^
+% Invalid input detected at '^' marker.
+
+
+

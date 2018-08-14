@@ -1,0 +1,61 @@
+
+VLAN0001
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8193
+             Address     a44c.115d.d780
+             Cost        3
+             Port        1281 (Port-channel1)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8193   (priority 8192 sys-id-ext 1)
+             Address     a44c.115d.e100
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time  14400 sec
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po1                 Root FWD 3         128.1281 P2p 
+
+
+
+VLAN0002
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8194
+             Address     a44c.115d.d780
+             Cost        3
+             Port        1281 (Port-channel1)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8194   (priority 8192 sys-id-ext 2)
+             Address     a44c.115d.e100
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time  14400 sec
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po1                 Root FWD 3         128.1281 P2p 
+
+
+
+VLAN0300
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8492
+             Address     a44c.115d.d780
+             Cost        3
+             Port        1281 (Port-channel1)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8492   (priority 8192 sys-id-ext 300)
+             Address     a44c.115d.e100
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time  14400 sec
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi1/4               Desg FWD 4         128.4    P2p Edge 
+Gi1/5               Desg FWD 4         128.5    P2p Edge 
+Gi1/6               Desg FWD 19        128.6    P2p Edge 
+Gi1/8               Desg FWD 4         128.8    P2p Edge 
+Po1                 Root FWD 3         128.1281 P2p 
+
+

@@ -1,0 +1,1388 @@
+Default switchport mode: access
+
+Name: Et1
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et2
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et3
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et4
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et5
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et6
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et7
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et8
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et9
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et10
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et11
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et12
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et13
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et14
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et15
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et16
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et17
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et18
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et19
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et20
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et21
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et22
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et23
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et24
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et25
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et26
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et27
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et28
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et29
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et30
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et31
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et32
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et33
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et34
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et35
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et36
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et37
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et38
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et39
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et40
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et41
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et42
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et43
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et44
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et45
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et46
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et47
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et48
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et53/1
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 1 (default)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Et54/1
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100 (active)
+Access Mode VLAN: 1 (default)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po1
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po2
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po3
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po4
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po5
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po6
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po7
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po8
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po9
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po10
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po11
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po12
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po13
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po14
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po15
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po16
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po17
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po18
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po19
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po20
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po21
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po22
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po23
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po24
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po25
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po26
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po27
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po28
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po29
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po30
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po31
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po32
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po33
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po34
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po35
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po36
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po37
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po38
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po39
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po40
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po41
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po42
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po43
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po44
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po45
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po46
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po47
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po48
+Switchport: Enabled
+Administrative Mode: static access
+Operational Mode: static access
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 401 (dup)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: 
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+
+Name: Po100
+Switchport: Enabled
+Administrative Mode: trunk
+Operational Mode: trunk
+MAC Address Learning: enabled
+Dot1q ethertype/TPID: 0x8100
+Access Mode VLAN: 1 (default)
+Trunking Native Mode VLAN: 1 (default)
+Administrative Native VLAN tagging: disabled
+Trunking VLANs Enabled: ALL
+Static Trunk Groups: ml-peer
+Dynamic Trunk Groups: 
+Source interface filtering: enabled
+

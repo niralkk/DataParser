@@ -1,0 +1,16 @@
+VLAN  Name                             Status    Ports
+----- -------------------------------- --------- -------------------------------
+1     default                          active    Po100
+400   NON-Compliance                   active    Cpu, Po100
+401   dup                              active    Cpu, Po1, Po2, Po3, Po4, Po5
+                                                 Po6, Po7, Po8, Po9, Po10, Po11
+                                                 Po12, Po13, Po14, Po15, Po16
+                                                 Po17, Po18, Po19, Po20, Po21
+                                                 Po22, Po23, Po24, Po100
+420   PayFlow-HRDMZ                    active    Po100
+500   Compliance                       active    Po100
+520   PayFlow-HRZ                      active    Po100
+800   Service-Providor-CLD-MGMT        active    Po100
+1000  Service-Provider                 active    Po100
+4094  mlag-peer                        active    Cpu, Po100
+

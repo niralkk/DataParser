@@ -1,0 +1,167 @@
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Po1, Po2, Po3, Po4, Po5, Po6
+                                                Po7, Po8, Po9, Po10, Po11, Po12
+                                                Po13, Po14, Po15, Po16, Po17
+                                                Po18, Po19, Po20, Po21, Po22
+                                                Po23, Po24, Po25, Po26, Po27
+                                                Po28, Po29, Po30, Po31, Po32
+                                                Po33, Po34, Po35, Po36, Po37
+                                                Po38, Po39, Po40, Po41, Po42
+                                                Po43, Po44, Po45, Po46, Po47
+                                                Po48, Po100, Eth1/1, Eth1/2
+                                                Eth1/3, Eth1/4, Eth1/5, Eth1/6
+                                                Eth1/7, Eth1/8, Eth1/9, Eth1/10
+                                                Eth1/11, Eth1/12, Eth1/13
+                                                Eth1/14, Eth1/15, Eth1/16
+                                                Eth1/17, Eth1/18, Eth1/19
+                                                Eth1/20, Eth1/21, Eth1/22
+                                                Eth1/23, Eth1/24, Eth1/25
+                                                Eth1/26, Eth1/27, Eth1/28
+                                                Eth1/29, Eth1/30, Eth1/31
+                                                Eth1/37, Eth1/39, Eth1/40
+                                                Eth1/41, Eth1/42, Eth1/43
+                                                Eth1/44, Eth1/45, Eth1/46
+                                                Eth1/47, Eth1/48, Eth1/51
+                                                Eth1/52
+400  NCP                              active    Po1, Po2, Po3, Po4, Po5, Po6
+                                                Po7, Po8, Po9, Po10, Po11, Po12
+                                                Po13, Po14, Po15, Po16, Po17
+                                                Po18, Po19, Po20, Po21, Po22
+                                                Po23, Po24, Po25, Po26, Po27
+                                                Po28, Po29, Po30, Po31, Po32
+                                                Po33, Po34, Po35, Po36, Po37
+                                                Po38, Po39, Po40, Po41, Po42
+                                                Po43, Po44, Po45, Po46, Po47
+                                                Po48, Po100, Eth1/1, Eth1/2
+                                                Eth1/3, Eth1/4, Eth1/5, Eth1/6
+                                                Eth1/7, Eth1/8, Eth1/9, Eth1/10
+                                                Eth1/11, Eth1/12, Eth1/13
+                                                Eth1/14, Eth1/15, Eth1/16
+                                                Eth1/17, Eth1/18, Eth1/19
+                                                Eth1/20, Eth1/21, Eth1/22
+                                                Eth1/23, Eth1/24, Eth1/25
+                                                Eth1/26, Eth1/27, Eth1/28
+                                                Eth1/29, Eth1/30, Eth1/31
+                                                Eth1/37, Eth1/39, Eth1/40
+                                                Eth1/41, Eth1/42, Eth1/43
+                                                Eth1/44, Eth1/45, Eth1/46
+                                                Eth1/47, Eth1/48, Eth1/51
+                                                Eth1/52
+500  Complaince                       active    Po1, Po2, Po3, Po4, Po5, Po6
+                                                Po7, Po8, Po9, Po10, Po11, Po12
+                                                Po13, Po14, Po15, Po16, Po17
+                                                Po18, Po19, Po20, Po21, Po22
+                                                Po23, Po24, Po25, Po26, Po27
+                                                Po28, Po29, Po30, Po31, Po32
+                                                Po33, Po34, Po35, Po36, Po37
+                                                Po38, Po39, Po40, Po41, Po42
+                                                Po43, Po44, Po45, Po46, Po47
+                                                Po48, Po100, Eth1/1, Eth1/2
+                                                Eth1/3, Eth1/4, Eth1/5, Eth1/6
+                                                Eth1/7, Eth1/8, Eth1/9, Eth1/10
+                                                Eth1/11, Eth1/12, Eth1/13
+                                                Eth1/14, Eth1/15, Eth1/16
+                                                Eth1/17, Eth1/18, Eth1/19
+                                                Eth1/20, Eth1/21, Eth1/22
+                                                Eth1/23, Eth1/24, Eth1/25
+                                                Eth1/26, Eth1/27, Eth1/28
+                                                Eth1/29, Eth1/30, Eth1/31
+                                                Eth1/32, Eth1/33, Eth1/36
+                                                Eth1/37, Eth1/38, Eth1/39
+                                                Eth1/40, Eth1/41, Eth1/42
+                                                Eth1/43, Eth1/44, Eth1/45
+                                                Eth1/46, Eth1/47, Eth1/48
+                                                Eth1/51, Eth1/52
+800  Service-Providor-CLD-MGMT        active    Po1, Po2, Po3, Po4, Po5, Po6
+                                                Po7, Po8, Po9, Po10, Po11, Po12
+                                                Po13, Po14, Po15, Po16, Po17
+                                                Po18, Po19, Po20, Po21, Po22
+                                                Po23, Po24, Po25, Po26, Po27
+                                                Po28, Po29, Po30, Po31, Po32
+                                                Po33, Po34, Po35, Po36, Po37
+                                                Po38, Po39, Po40, Po41, Po42
+                                                Po43, Po44, Po45, Po46, Po47
+                                                Po48, Po100, Eth1/1, Eth1/2
+                                                Eth1/3, Eth1/4, Eth1/5, Eth1/6
+                                                Eth1/7, Eth1/8, Eth1/9, Eth1/10
+                                                Eth1/11, Eth1/12, Eth1/13
+                                                Eth1/14, Eth1/15, Eth1/16
+                                                Eth1/17, Eth1/18, Eth1/19
+                                                Eth1/20, Eth1/21, Eth1/22
+                                                Eth1/23, Eth1/24, Eth1/25
+                                                Eth1/26, Eth1/27, Eth1/28
+                                                Eth1/29, Eth1/30, Eth1/31
+                                                Eth1/37, Eth1/39, Eth1/40
+                                                Eth1/41, Eth1/42, Eth1/43
+                                                Eth1/44, Eth1/45, Eth1/46
+                                                Eth1/47, Eth1/48, Eth1/51
+                                                Eth1/52
+1000 Service-Providor                 active    Po1, Po2, Po3, Po4, Po5, Po6
+                                                Po7, Po8, Po9, Po10, Po11, Po12
+                                                Po13, Po14, Po15, Po16, Po17
+                                                Po18, Po19, Po20, Po21, Po22
+                                                Po23, Po24, Po25, Po26, Po27
+                                                Po28, Po29, Po30, Po31, Po32
+                                                Po33, Po34, Po35, Po36, Po37
+                                                Po38, Po39, Po40, Po41, Po42
+                                                Po43, Po44, Po45, Po46, Po47
+                                                Po48, Po100, Eth1/1, Eth1/2
+                                                Eth1/3, Eth1/4, Eth1/5, Eth1/6
+                                                Eth1/7, Eth1/8, Eth1/9, Eth1/10
+                                                Eth1/11, Eth1/12, Eth1/13
+                                                Eth1/14, Eth1/15, Eth1/16
+                                                Eth1/17, Eth1/18, Eth1/19
+                                                Eth1/20, Eth1/21, Eth1/22
+                                                Eth1/23, Eth1/24, Eth1/25
+                                                Eth1/26, Eth1/27, Eth1/28
+                                                Eth1/29, Eth1/30, Eth1/31
+                                                Eth1/37, Eth1/39, Eth1/40
+                                                Eth1/41, Eth1/42, Eth1/43
+                                                Eth1/44, Eth1/45, Eth1/46
+                                                Eth1/47, Eth1/48, Eth1/51
+                                                Eth1/52
+3900 NON-ROUTED                       active    Po1, Po2, Po3, Po4, Po5, Po6
+                                                Po7, Po8, Po9, Po10, Po11, Po12
+                                                Po13, Po14, Po15, Po16, Po17
+                                                Po18, Po19, Po20, Po21, Po22
+                                                Po23, Po24, Po25, Po26, Po27
+                                                Po28, Po29, Po30, Po31, Po32
+                                                Po33, Po34, Po35, Po36, Po37
+                                                Po38, Po39, Po40, Po41, Po42
+                                                Po43, Po44, Po45, Po46, Po47
+                                                Po48, Po100, Eth1/1, Eth1/2
+                                                Eth1/3, Eth1/4, Eth1/5, Eth1/6
+                                                Eth1/7, Eth1/8, Eth1/9, Eth1/10
+                                                Eth1/11, Eth1/12, Eth1/13
+                                                Eth1/14, Eth1/15, Eth1/16
+                                                Eth1/17, Eth1/18, Eth1/19
+                                                Eth1/20, Eth1/21, Eth1/22
+                                                Eth1/23, Eth1/24, Eth1/25
+                                                Eth1/26, Eth1/27, Eth1/28
+                                                Eth1/29, Eth1/30, Eth1/31
+                                                Eth1/34, Eth1/35, Eth1/37
+                                                Eth1/39, Eth1/40, Eth1/41
+                                                Eth1/42, Eth1/43, Eth1/44
+                                                Eth1/45, Eth1/46, Eth1/47
+                                                Eth1/48, Eth1/51, Eth1/52
+
+VLAN Type         Vlan-mode
+---- -----        ----------
+1    enet         CE
+400  enet         CE
+500  enet         CE
+800  enet         CE
+1000 enet         CE
+3900 enet         CE
+
+Remote SPAN VLANs
+-------------------------------------------------------------------------------
+
+Primary  Secondary  Type             Ports
+-------  ---------  ---------------  -------------------------------------------
+
+
+
+

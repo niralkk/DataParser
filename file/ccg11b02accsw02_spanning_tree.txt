@@ -1,0 +1,99 @@
+
+VLAN0001
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8193
+             Address     e865.49cd.3f41
+             Cost        1
+             Port        4195 (port-channel100)
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16385  (priority 16384 sys-id-ext 1)
+             Address     e865.49cd.3fc1
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po100            Root FWD 1         128.4195 (vPC peer-link) Network P2p 
+
+
+VLAN0400
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8592
+             Address     e865.49cd.3f41
+             Cost        1
+             Port        4195 (port-channel100)
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16784  (priority 16384 sys-id-ext 400)
+             Address     e865.49cd.3fc1
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po100            Root FWD 1         128.4195 (vPC peer-link) Network P2p 
+
+
+VLAN0500
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8692
+             Address     e865.49cd.3f41
+             Cost        1
+             Port        4195 (port-channel100)
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16884  (priority 16384 sys-id-ext 500)
+             Address     e865.49cd.3fc1
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po100            Root FWD 1         128.4195 (vPC peer-link) Network P2p 
+Eth1/1           Desg FWD 2         128.1    Edge P2p 
+Eth1/2           Desg FWD 2         128.5    Edge P2p 
+Eth1/3           Desg FWD 2         128.9    Edge P2p 
+Eth1/4           Desg FWD 2         128.13   Edge P2p 
+Eth1/5           Desg FWD 2         128.17   Edge P2p 
+Eth1/6           Desg FWD 2         128.21   Edge P2p 
+Eth1/7           Desg FWD 2         128.25   Edge P2p 
+Eth1/8           Desg FWD 2         128.29   Edge P2p 
+Eth1/10          Desg FWD 2         128.37   Edge P2p 
+Eth1/11          Desg FWD 2         128.41   Edge P2p 
+Eth1/12          Desg FWD 2         128.45   Edge P2p 
+Eth1/13          Desg FWD 2         128.49   Edge P2p 
+Eth1/14          Desg FWD 2         128.53   Edge P2p 
+Eth1/15          Desg FWD 2         128.57   Edge P2p 
+Eth1/16          Desg FWD 2         128.61   Edge P2p 
+Eth1/17          Desg FWD 2         128.65   Edge P2p 
+Eth1/18          Desg FWD 2         128.69   Edge P2p 
+Eth1/19          Desg FWD 2         128.73   Edge P2p 
+Eth1/20          Desg FWD 2         128.77   Edge P2p 
+Eth1/21          Desg FWD 2         128.81   Edge P2p 
+Eth1/22          Desg FWD 2         128.85   Edge P2p 
+Eth1/23          Desg FWD 2         128.89   Edge P2p 
+Eth1/24          Desg FWD 2         128.93   Edge P2p 
+Eth1/25          Desg FWD 2         128.97   Edge P2p 
+Eth1/26          Desg FWD 2         128.101  Edge P2p 
+Eth1/27          Desg FWD 2         128.105  Edge P2p 
+Eth1/28          Desg FWD 2         128.109  Edge P2p 
+Eth1/29          Desg FWD 2         128.113  Edge P2p 
+Eth1/30          Desg FWD 2         128.117  Edge P2p 
+Eth1/31          Desg FWD 2         128.121  Edge P2p 
+Eth1/32          Desg FWD 2         128.125  Edge P2p 
+Eth1/33          Desg FWD 2         128.129  Edge P2p 
+Eth1/34          Desg FWD 2         128.133  Edge P2p 
+Eth1/35          Desg FWD 2         128.137  Edge P2p 
+Eth1/36          Desg FWD 2         128.141  Edge P2p 
+Eth1/37          Desg FWD 2         128.145  Edge P2p 
+Eth1/38          Desg FWD 2         128.149  Edge P2p 
+Eth1/39          Desg FWD 2         128.153  Edge P2p 
+Eth1/40          Desg FWD 2         128.157  Edge P2p 
+Eth1/41          Desg FWD 2         128.161  Edge P2p 
+Eth1/42          Desg FWD 2         128.165  Edge P2p 
+Eth1/43          Desg FWD 2         128.169  Edge P2p 
+Eth1/44          Desg FWD 2         128.173  Edge P2p 
+Eth1/45          Desg FWD 2         128.177  Edge P2p 
+Eth1/46          Desg FWD 2         128.181  Edge P2p 
+Eth1/47          Desg FWD 2         128.185  Edge P2p 
+Eth1/48          Desg FWD 2         128.189  Edge P2p 
+
+

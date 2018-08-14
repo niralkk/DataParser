@@ -1,0 +1,11 @@
+	OS			Database
+Config File Name	Cisco IOS	Cisco NXOS	Arista EOS	
+BGP Peers		ccg11b02accsw02	phx11b01accsw30	
+IPv4 Routing 	slc1appa1511dcnsw09	ccg11b02accsw02		
+STP	slc1appa1511dcnsw09	ccg11b02accsw02	ccg11b03accsw23	
+SwitchPort	slc1appa1511dcnsw09	ccg11b02accsw02	ccg11b03accsw23	
+VLAN Status	slc1appa1511dcnsw09	ccg11b02accsw02	ccg11b03accsw23	
+VRF Routing	slc1appa1511dcnsw09	ccg11b02accsw02		
+Mac Table	slc1appa1511dcnsw09	ccg11b02accsw02	ccg11b03accsw23	
+interface		dcg11accsw01		
+config		dcg11accsw01

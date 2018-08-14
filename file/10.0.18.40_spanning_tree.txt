@@ -1,0 +1,128 @@
+VL1
+  Spanning tree enabled protocol rapid-pvst
+  Root ID    Priority    8193
+             Address     464c.a877.7829
+             This bridge is the root
+
+  Bridge ID  Priority     8193  (priority 8192 sys-id-ext 1)
+             Address     464c.a877.7829
+             Hello Time  2.000 sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role       State      Cost      Prio.Nbr Type
+---------------- ---------- ---------- --------- -------- --------------------
+
+VL400
+  Spanning tree enabled protocol rapid-pvst
+  Root ID    Priority    8592
+             Address     464c.a877.7829
+             This bridge is the root
+
+  Bridge ID  Priority     8592  (priority 8192 sys-id-ext 400)
+             Address     464c.a877.7829
+             Hello Time  2.000 sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role       State      Cost      Prio.Nbr Type
+---------------- ---------- ---------- --------- -------- --------------------
+
+VL401
+  Spanning tree enabled protocol rapid-pvst
+  Root ID    Priority    8593
+             Address     464c.a877.7829
+             This bridge is the root
+
+  Bridge ID  Priority     8593  (priority 8192 sys-id-ext 401)
+             Address     464c.a877.7829
+             Hello Time  2.000 sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role       State      Cost      Prio.Nbr Type
+---------------- ---------- ---------- --------- -------- --------------------
+Po1              designated forwarding 1999      128.105  P2p Edge
+Po2              designated forwarding 1999      128.114  P2p Edge
+Po3              designated forwarding 1999      128.127  P2p Edge
+Po4              designated forwarding 1999      128.107  P2p Edge
+Po5              designated forwarding 1999      128.134  P2p Edge
+Po6              designated forwarding 1999      128.124  P2p Edge
+Po7              designated forwarding 1999      128.131  P2p Edge
+Po8              designated forwarding 1999      128.145  P2p Edge
+Po9              designated forwarding 1999      128.126  P2p Edge
+Po10             designated forwarding 1999      128.142  P2p Edge
+Po11             designated forwarding 1999      128.112  P2p Edge
+Po12             designated forwarding 1999      128.140  P2p Edge
+Po13             designated forwarding 1999      128.116  P2p Edge
+Po14             designated forwarding 1999      128.133  P2p Edge
+Po15             designated forwarding 1999      128.129  P2p Edge
+Po16             designated forwarding 1999      128.121  P2p Edge
+Po17             designated forwarding 1999      128.103  P2p Edge
+Po18             designated forwarding 1999      128.119  P2p Edge
+Po19             designated forwarding 1999      128.132  P2p Edge
+Po20             designated forwarding 1999      128.115  P2p Edge
+Po21             designated forwarding 1999      128.125  P2p Edge
+Po22             designated forwarding 1999      128.100  P2p Edge
+Po23             designated forwarding 1999      128.109  P2p Edge
+Po24             designated forwarding 1999      128.101  P2p Edge
+
+VL420
+  Spanning tree enabled protocol rapid-pvst
+  Root ID    Priority    8612
+             Address     464c.a877.7829
+             This bridge is the root
+
+  Bridge ID  Priority     8612  (priority 8192 sys-id-ext 420)
+             Address     464c.a877.7829
+             Hello Time  2.000 sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role       State      Cost      Prio.Nbr Type
+---------------- ---------- ---------- --------- -------- --------------------
+
+VL500
+  Spanning tree enabled protocol rapid-pvst
+  Root ID    Priority    8692
+             Address     464c.a877.7829
+             This bridge is the root
+
+  Bridge ID  Priority     8692  (priority 8192 sys-id-ext 500)
+             Address     464c.a877.7829
+             Hello Time  2.000 sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role       State      Cost      Prio.Nbr Type
+---------------- ---------- ---------- --------- -------- --------------------
+
+VL520
+  Spanning tree enabled protocol rapid-pvst
+  Root ID    Priority    8712
+             Address     464c.a877.7829
+             This bridge is the root
+
+  Bridge ID  Priority     8712  (priority 8192 sys-id-ext 520)
+             Address     464c.a877.7829
+             Hello Time  2.000 sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role       State      Cost      Prio.Nbr Type
+---------------- ---------- ---------- --------- -------- --------------------
+
+VL800
+  Spanning tree enabled protocol rapid-pvst
+  Root ID    Priority    8992
+             Address     464c.a877.7829
+             This bridge is the root
+
+  Bridge ID  Priority     8992  (priority 8192 sys-id-ext 800)
+             Address     464c.a877.7829
+             Hello Time  2.000 sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role       State      Cost      Prio.Nbr Type
+---------------- ---------- ---------- --------- -------- --------------------
+
+VL1000
+  Spanning tree enabled protocol rapid-pvst
+  Root ID    Priority    9192
+             Address     464c.a877.7829
+             This bridge is the root
+
+  Bridge ID  Priority     9192  (priority 8192 sys-id-ext 1000)
+             Address     464c.a877.7829
+             Hello Time  2.000 sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role       State      Cost      Prio.Nbr Type
+---------------- ---------- ---------- --------- -------- --------------------
+

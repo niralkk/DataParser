@@ -1,0 +1,65 @@
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Gi1/1, Gi1/13, Gi1/14, Gi1/16
+                                                Gi1/17, Gi1/19, Gi1/20, Gi1/26
+                                                Gi1/28, Gi1/29, Gi1/30, Gi1/32
+                                                Gi1/34, Gi1/35, Gi1/44, Gi1/45
+                                                Gi1/46, Gi1/47, Gi1/48
+110  SWITCH_MANAGEMENT                active
+300  Essential_Services               active
+301  Netsec_Management                active    Gi1/3
+302  SaOPS                            active    Gi1/2, Gi1/4, Gi1/5, Gi1/18
+                                                Gi1/36
+303  InfoSec                          active    Gi1/6, Gi1/15, Gi1/21, Gi1/27
+                                                Gi1/38, Gi1/43
+304  Tools-RE                         active
+305  PPP-Tools                        active    Gi1/12
+306  SAN_Segment                      active    Gi1/31, Gi1/33, Gi1/37
+307  Storage_Management               active
+309  DMZ-SRSS-Ops                     active
+310  DMZ-SRSS-PD                      active
+311  SIO-Servers                      active
+312  SaOps_Openstack_10.73.111.0/24   active
+313  ToolsRE_Openstack_10.73.112.0/24 active
+314  PPPTools_Openstack_10.75.29.0/24 active    Gi1/7, Gi1/8, Gi1/9, Gi1/10
+                                                Gi1/11, Gi1/22, Gi1/23, Gi1/24
+                                                Gi1/25, Gi1/39, Gi1/40, Gi1/41
+                                                Gi1/42
+315  FW_DMZ_10.73.116.0/22            active
+1002 fddi-default                     act/unsup
+1003 token-ring-default               act/unsup
+1004 fddinet-default                  act/unsup
+1005 trnet-default                    act/unsup
+
+VLAN Type  SAID       MTU   Parent RingNo BridgeNo Stp  BrdgMode Trans1 Trans2
+---- ----- ---------- ----- ------ ------ -------- ---- -------- ------ ------
+1    enet  100001     1500  -      -      -        -    -        0      0
+110  enet  100110     1500  -      -      -        -    -        0      0
+300  enet  100300     1500  -      -      -        -    -        0      0
+301  enet  100301     1500  -      -      -        -    -        0      0
+302  enet  100302     1500  -      -      -        -    -        0      0
+303  enet  100303     1500  -      -      -        -    -        0      0
+304  enet  100304     1500  -      -      -        -    -        0      0
+305  enet  100305     1500  -      -      -        -    -        0      0
+306  enet  100306     1500  -      -      -        -    -        0      0
+307  enet  100307     1500  -      -      -        -    -        0      0
+309  enet  100309     1500  -      -      -        -    -        0      0
+310  enet  100310     1500  -      -      -        -    -        0      0
+311  enet  100311     1500  -      -      -        -    -        0      0
+312  enet  100312     1500  -      -      -        -    -        0      0
+313  enet  100313     1500  -      -      -        -    -        0      0
+314  enet  100314     1500  -      -      -        -    -        0      0
+315  enet  100315     1500  -      -      -        -    -        0      0
+1002 fddi  101002     1500  -      -      -        -    -        0      0
+1003 tr    101003     1500  -      -      -        -    -        0      0
+1004 fdnet 101004     1500  -      -      -        ieee -        0      0
+1005 trnet 101005     1500  -      -      -        ibm  -        0      0
+
+Remote SPAN VLANs
+------------------------------------------------------------------------------
+
+
+Primary Secondary Type              Ports
+------- --------- ----------------- ------------------------------------------
+
